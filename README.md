@@ -29,6 +29,11 @@ The study investigates what is gained and lost in translating one of literature�
 
 ---
 
+## Dependencies Needed
+- The project was completed in Python. To reproduce results, run the notebook "proustNLP.ipynb". A full write-up and analysis of the results can be found at the attached PDF "ProustNLPreport.pdf"
+- To following libraries are necessary to run the program: requests, spacy, re, matplotlib, collections, numpy, scipy, transformers, torch, seaborn, pandas, sentence_transformers, sklearn, BERTopic
+
+---
 ## Results
 
 ### 1. Sentence Length & Word Frequency
@@ -58,8 +63,9 @@ The study investigates what is gained and lost in translating one of literature�
 ![t-SNE Semantic Map](images/figureF.png)
 
 ### 5. Topic Modeling
-- English topics focused on tangible items (nature, money).
-- French topics focused on aesthetics (art, music).
+- The top two most populated topics for English and French were un-interpretable.
+- The remaining two English topics focused on tangible items (nature, money).
+- The remaining two French topics focused on aesthetics (art, music).
 
 ![Topic Similarity Heatmap](images/figureG.png)
 
@@ -73,15 +79,3 @@ Moncrieff’s translation:
 
 While NLP provides measurable insights, literature’s artistry resists full capture by quantitative methods.
 
----
-
-## Repository Structure
-```
-Proust-NLP-Project/
-│
-├── data/                   # Raw and processed text data
-├── notebooks/              # Analysis Jupyter notebooks
-├── figures/                # Generated diagrams
-├── README.md               # Project summary (this file)
-└── report/                 # Full PDF report
-```

@@ -36,31 +36,31 @@ The study investigates what is gained and lost in translating one of literatureâ
 - Vocabulary diversity in English closely matched French.
 - Both texts followed Zipfâ€™s Law.
 
-![Sentence Length Distribution](figures/sentence_length_distribution.png)
-![Word Frequency Distribution](figures/word_frequency_distribution.png)
+![Sentence Length Distribution](images/figureA)
+![Word Frequency Distribution](images/figureB)
 
 ### 2. Sentiment Analysis
 - Median sentiments centered around neutral for both texts.
 - Differences most noticeable in the "Place Names" section.
 
-![Sentiment Box Plots](figures/sentiment_boxplots.png)
+![Sentiment Box Plots](images/figureC)
 
 ### 3. Sentiment Arcs
 - Sentiment trajectories between versions were similar, suggesting preserved mood transitions.
 
-![Sentiment Arcs](figures/sentiment_arcs.png)
+![Sentiment Arcs](images/figureD)
 
 ### 4. Semantic Similarity
 - Moncrieff's translation closely aligned semantically with the French text.
 - "Swann in Love" was most semantically uniform; "Combray" most scattered.
 
-![t-SNE Semantic Map](figures/tsne_semantic_map.png)
+![t-SNE Semantic Map](images/figureE)
 
 ### 5. Topic Modeling
 - English topics focused on tangible items (nature, money).
 - French topics focused on aesthetics (art, music).
 
-![Topic Similarity Heatmap](figures/topic_similarity_heatmap.png)
+![Topic Similarity Heatmap](images/figureF)
 
 ---
 
